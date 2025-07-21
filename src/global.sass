@@ -1,0 +1,51 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+ 
+:root 
+  --index: calc(1vw + 1vh)
+  --color-header: rgb(255, 255, 255)
+  --color-text: rgb(164, 162, 162)
+  --gallery-gap: calc(var(--index) *3)
+  --nav-gap: calc(var(--index) * 2)
+  --gradient-1: linear-gradient(270deg, #08e7dc, #c99e10)
+  --transition: all 0.5s ease
+
+$white: #fff
+$black: #000
+ 
+@font-face 
+  font-family: 'Comforter'
+  src: url('https://fonts.googleapis.com/css2?family=Comforter&display=swap')
+
+@font-face 
+  font-family: 'Cookie'
+  src: url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Cookie&display=swap')
+
+h1,h2,h3,h4,h5,h6
+  font-family: 'Comforter', cursive
+
+/*will-change*/
+
+.contetn, .hero-image, .main-header, .gallery > *
+  will-change: transform
+
+body 
+  background-color: #3e3939
+  font-family: 'Comforter', cursive
+  color: var(--color-header)
+  overflow-x: hidden
+  min-width: 320px
+
+a 
+  text-decoration: none
+  color: white
+  
+ul 
+  list-style: none
+
+.container 
+  padding: 0 7vw
+ 
+ 
